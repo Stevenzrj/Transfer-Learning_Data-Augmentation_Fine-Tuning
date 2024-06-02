@@ -35,7 +35,7 @@
 **基本环境配置和数据集准备**    
 
 安装PyTorch之前需先安装Python，推荐使用Miniconda搭建Python环境。Miniconda是最小的Conda安装程序，它提供了类似沙盒的环境，避免了在旧的Python环境中安装可能会遇到的库依赖冲突等问题。Miniconda本身包含Python，安装Miniconda后将获得Conda包管理工具和Python环境。
-可在Miniconda官网（https://docs.conda.io/en/latest/miniconda.html）下载适合当前系统的、64位的、使用Python 3的Miniconda安装包。
+可在Miniconda官网（https://docs.conda.io/en/latest/miniconda.html） 下载适合当前系统的、64位的、使用Python 3的Miniconda安装包。
 
 数据集需提前从以下链接下载：https://www.microsoft.com/en-us/download/details.aspx?id=54765
 
