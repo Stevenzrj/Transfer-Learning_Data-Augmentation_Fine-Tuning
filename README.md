@@ -53,9 +53,8 @@ pip install pandas matplotlib notebook
 --------------------------------------------------------------------------------------------------
 **代码链接**  
 
-```markdown
 - [Transfer Learning_GPU](https://github.com/Stevenzrj/Transfer-Learning_Data-Augmentation_Fine-Tuning/blob/main/Transfer%20Learning_GPU.ipynb)
-```
+
 
 
   
