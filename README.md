@@ -43,7 +43,8 @@ PyTorch分为CPU版本和GPU版本；GPU版本需有NVIDIA显卡硬件支持，�
 
 完成PyTorch库的安装后，还需要安装辅助库，如绘图库Matplotlib、数据分析库pandas以及开发编辑工具Jupyter Notebook等，可在Anaconda Prompt命令行或者终端执行：   
 ```bash
-pip install pandas matplotlib notebook'''
+pip install pandas matplotlib notebook
+```
 
 数据集需提前从以下链接下载：https://www.microsoft.com/en-us/download/details.aspx?id=54765
 
