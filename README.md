@@ -27,19 +27,34 @@
 --------------------------------------------------------------------------------------------------
 **简介**
 
+大部分内容来自网络。  
 
+人工智能领域（机器智能）的东东进步的日新月异，但劈柴挑水的基本功变化不大；经历过生活里的摸爬滚打后，蓦然发现还是学东西最单纯。  
 
-
-
---------------------------------------------------------------------------------------------------
-**基本环境配置**
-
-
-
-
+好记心不如烂笔头；决心把自学、实践的内容记录下来，便于以后查找，也能起到自我监督、总结提高的作用；如果有朋友感兴趣，欢迎拍砖。
 
 --------------------------------------------------------------------------------------------------
-**代码链接**
+**基本环境配置和数据集准备**    
+
+安装PyTorch之前需先安装Python，推荐使用Miniconda搭建Python环境。Miniconda是最小的Conda安装程序，它提供了类似沙盒的环境，避免了在旧的Python环境中安装可能会遇到的库依赖冲突等问题。Miniconda本身包含Python，安装Miniconda后将获得Conda包管理工具和Python环境。
+可在Miniconda官网（ https://docs.conda.io/en/latest/miniconda.html ）下载适合当前系统的、64位的、使用Python 3的Miniconda安装包。  
+
+PyTorch分为CPU版本和GPU版本；GPU版本需有NVIDIA显卡硬件支持，可以利用NVIDIA GPU强大的计算加速能力，使PyTorch的运行更为高效，尤其是可以成倍提升模型训练的速度。如果计算机没有NVIDIA显卡硬件支持，请直接安装CPU版本，安装命令参考PyTorch官网：https://pytorch.org/get-started/locally/  
+
+另外，Windows平台还需要安装Microsoft Visual C++(VC_redist.x64.exe)，可从微软网站（网址为： https://docs.microsoft.com/zh-CN/cpp/windows/latest-supported-vc-redist ）下载安装最新支持的Visual C++。在很多时候，计算机可能已经安装过Visual C++，如果安装时提示已经安装了其他版本，那就没有必要重复安装了。  
+
+完成PyTorch库的安装后，还需要安装辅助库，如绘图库Matplotlib、数据分析库pandas以及开发编辑工具Jupyter Notebook等，可在Anaconda Prompt命令行或者终端执行：   
+```bash
+pip install pandas matplotlib notebook
+```
+
+数据集需提前从以下链接下载：https://www.microsoft.com/en-us/download/details.aspx?id=54765
+
+--------------------------------------------------------------------------------------------------
+**代码链接**  
+
+- [Transfer Learning_GPU](https://github.com/Stevenzrj/Transfer-Learning_Data-Augmentation_Fine-Tuning/blob/main/Transfer%20Learning_GPU.ipynb)
+
 
 
   
