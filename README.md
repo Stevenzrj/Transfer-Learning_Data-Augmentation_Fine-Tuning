@@ -55,6 +55,8 @@ pip install pandas matplotlib notebook
 
 - [Transfer Learning_GPU](https://github.com/Stevenzrj/Transfer-Learning_Data-Augmentation_Fine-Tuning/blob/main/Transfer%20Learning_GPU.ipynb)
 
+- [Transfer Learning_CPU](https://github.com/Stevenzrj/Transfer-Learning_Data-Augmentation_Fine-Tuning/blob/main/Transfer%20Learning_CPU.ipynb)
+
 
 
   
